@@ -6,5 +6,5 @@ const CONTRACT_ADDRESS = "YOUR_AHUT_CONTRACT_ADDRESS";
 export const getBalance = async (provider, address) => {
   const contract = new ethers.Contract(CONTRACT_ADDRESS, AHUT, provider);
   const balance = await contract.balanceOf(address);
-  return ethers.utils.formatUnits(balance, 18);
+  return ethers.formatUnits(balance, 18);
 };

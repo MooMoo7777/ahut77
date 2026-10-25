@@ -1,4 +1,4 @@
-import { useAuth } from "../../AuthContext";
+import { useAuth } from "../../useAuth";
 import Link from "next/link";
 
 export default function Dashboard() {

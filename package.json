@@ -1,0 +1,20 @@
+{
+  "name": "ahut77",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AHUT Housing Utility Token Web App",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@web3auth/base": "^8.12.4",
+    "@web3auth/ethereum-provider": "^8.12.4",
+    "@web3auth/modal": "^8.12.7",
+    "ethers": "^6.13.0",
+    "next": "^15.5.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

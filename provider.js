@@ -1,0 +1,9 @@
+import { ethers } from "ethers";
+import { web3auth } from "./web3Auth";
+
+export const getProvider = async () => {
+  await web3auth.initModal();
+
+  const provider = await web3auth.connect();
+  return new ethers.BrowserProvider(provider);
+};
